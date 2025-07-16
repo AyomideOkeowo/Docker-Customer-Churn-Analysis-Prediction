@@ -24,22 +24,22 @@ Docker – Containerisation of the FastAPI application
 
  
  # Project Overview
-1. Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 Conducted comprehensive EDA to identify trends, correlations, and potential predictors of churn.
 
 Visualised class imbalance and feature distributions using Seaborn and Matplotlib.
 
-2. Data Preprocessing & Feature Engineering
+## Data Preprocessing & Feature Engineering
 Label Encoding used for categorical variables.
 
 StandardScaler applied to scale numerical features.
 
 Feature selection based on correlation matrix and domain relevance.
 
-3. Handling Class Imbalance
+## Handling Class Imbalance
 Applied SMOTEENN (Synthetic Minority Oversampling + Edited Nearest Neighbours) to balance the dataset.
 
-4. Model Building & Evaluation
+## Model Building & Evaluation
 Trained and compared several classification models:
 
 Logistic Regression
@@ -60,14 +60,14 @@ Accuracy Score
 
 Classification Report (Precision, Recall, F1-Score)
 
-5. API Development with FastAPI
+## API Development with FastAPI
 Created an interactive RESTful API using FastAPI.
 
 Integrated the best-performing model to accept input features via JSON and return predictions.
 
 Used Uvicorn for local and production serving.
 
-6. Containerisation with Docker
+## Containerisation with Docker
 Packaged the entire FastAPI application using Docker.
 
 Created a Dockerfile for reproducible builds.
