@@ -5,7 +5,7 @@ This project focuses on predicting customer churn using various machine learning
 # Tools & Libraries 
  
  Python Libraries
-FastAPI – High-performance API framework for model deployment
+FastAPI – High performance API framework for model deployment
 
 Uvicorn – ASGI server for running FastAPI apps
 
@@ -58,12 +58,12 @@ Confusion Matrix
 
 Accuracy Score
 
-Classification Report (Precision, Recall, F1-Score)
+Classification Report (Precision, Recall, F1 Score)
 
 ## API Development with FastAPI
 Created an interactive RESTful API using FastAPI.
 
-Integrated the best-performing model to accept input features via JSON and return predictions.
+Integrated the best performing model to accept input features via JSON and return predictions.
 
 Used Uvicorn for local and production serving.
 
