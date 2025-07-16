@@ -9,9 +9,9 @@ FastAPI – High performance API framework for model deployment
 
 Uvicorn – ASGI server for running FastAPI apps
 
-Scikit-learn – Model building and evaluation
+Scikit learn – Model building and evaluation
 
-Imbalanced-learn (SMOTEENN) – Handling class imbalance
+SMOTEENN – Handling class imbalance
 
 Pandas – Data handling
 
